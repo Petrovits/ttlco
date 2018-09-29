@@ -1,0 +1,31 @@
+
+body{    
+  /* background:url('images/_TP30346.jpg') no-repeat; */
+  background-color: black;
+  background-size: cover;
+  height:100%;
+  width:100%; 
+  /* background: url('images/_TP30346-1.jpg') no-repeat center center fixed;  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.form-top{
+	margin-top: 30px;
+}
+.panel{
+    background-color: #777;
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
+	border-radius: 10px;
+    border: 0;
+}
+@-moz-document url-prefix() {
+    .form-control{
+    	height: auto;
+    }
+}
+
+
